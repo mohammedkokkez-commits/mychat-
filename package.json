@@ -1,0 +1,16 @@
+{
+  "name": "private-chat-legacy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "محادثة خاصة بين شخصين، بدون اعتماد على JavaScript في المتصفح، متوافقة مع المتصفحات القديمة جدًا (مثل iPad الجيل الأول).",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "bcryptjs": "^2.4.3",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.4.0",
+    "cookie-parser": "^1.4.6"
+  }
+}
